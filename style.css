@@ -17,7 +17,7 @@ body {
 }
 
 .header {
-    background: #e85d04;
+    background:#FFC300;
     color: #fff;
     padding: 1rem 0;
     position: fixed;
@@ -114,13 +114,13 @@ body {
 }
 
 .btn-primary {
-    background-color: #e85d04;
+    background-color: #FFC300;
     color: #ffffff;
 }
 
 .btn-primary:hover {
-    background-color: #c0392b;
-    transform: translateY(-2px);
+    background-color: #e0ac00;
+    scale: 1.1;
 }
 
 .btn-secondary {
@@ -131,8 +131,8 @@ body {
 
 .btn-secondary:hover {
     background-color: #ffffff;
-    color: #e85d04;
-    transform: translateY(-2px);
+    color: #FFC300;
+    scale: 1.1;
 }
 
 .menu{
@@ -163,7 +163,7 @@ body {
     font-size: 2rem;
     color: #2c3e50;
     margin-bottom: 1.5rem;
-    border-bottom: 3px solid #e85d04;
+    border-bottom: 3px solid #FFC300;
     padding-bottom: 0.5rem;
 }
 
@@ -201,7 +201,7 @@ body {
 .price {
     font-size: 1.1rem;
     font-weight: bold;
-    color: #e85d04;
+    color: #FFC300;
 }
 
 .about{
@@ -291,7 +291,7 @@ body {
 .form-group select:focus ,
 .form-group textarea:focus{
     outline: none;
-    border-color: #e85d04;
+    border-color: #FFC300;
 }
 @media(max-width:768px) {
     .hero-contant h2 {
@@ -446,5 +446,6 @@ body {
     scale: 1.01;
     box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
 }
+
 
 
